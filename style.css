@@ -161,6 +161,7 @@ button:hover {
                 width: 40%;
                 height: 60%;
                 top: 10%
+                border: none;
     }
     img {
         top: -75px;
