@@ -1,0 +1,408 @@
+body {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background:rgb(0, 0, 0);
+    background-image: url("pxfuel\ \(1\).jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 15%;
+    height: 60%;
+    background:#000000;
+    border: 3px solid #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0);
+    padding: 100px;
+    text-align: center;
+    justify-content: center;
+}
+
+img {
+    display: block;
+    width: 300px;
+    position:relative;
+    top:-70px;
+}
+
+h1 {
+    color: #ffffff;
+    position: relative;
+    top: -60px;
+}
+
+p {
+    top: 20px;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    font-weight: 400;
+    
+}
+
+form {
+    margin-top: 20px;
+}
+
+.container .input-box {
+    top: -60px;
+    margin: 30px 0;
+    border-bottom: 2px solid hsl(0, 0%, 100%);
+    position: relative;
+}
+
+.container label {
+    color: #ffffff;
+    position:absolute;
+    left: 5px;
+    top:50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+}
+input:focus ~ label{
+top: -5px;
+transition: top 0.7s;
+}
+input:valid ~ label{
+top: -5px;
+}
+
+
+.container input {
+    color:#ffffff;
+    background-color: #00000000;
+    width: 100%;   
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 0px 0 5px;
+    height: 40px;
+}
+i{
+    position: absolute;
+    top: 13px;
+    right: 0;
+}
+
+button {
+    font-family:sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    width: 100%;
+    position: relative;
+    top: -60px;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #535353;
+}
+
+.social-icons {
+    margin: -40px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons a {
+    text-decoration: none;
+    font-size: 40px;
+    border: 2px solid #ccc;
+    border-radius: 20%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 6px;
+    width: 40px;
+    height: 40px;
+
+}
+
+.social-icons i {
+    display:contents;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .link {
+    display: inline;
+    color: #ffffff;
+    margin: 100PX;
+    text-decoration: none;
+    font-weight: 400;
+
+}
+
+.container .link a{
+    color: #ffee00;
+    font-weight: 450;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .container {
+        text-align: center;
+        justify-content: center;
+        backdrop-filter: blur(none);
+        width: 40%;
+        height: 60%;
+        top: 10%;
+}
+
+img {
+top: -80px;
+}
+
+h1 {
+top: -85px;
+}
+
+.container .input-box {
+top: -110px;
+}
+
+button {
+    top: -110px;
+}
+
+.social-icons {
+            margin: -85px 0;
+}
+
+p {
+    top:60px;
+                    
+}
+
+body {
+height: 637px;
+width: 375px;
+    }
+
+}
+
+@media screen and (max-width: 998px) {
+    .container {
+        text-align: center;
+        justify-content: center;
+        backdrop-filter: blur(none);
+        width: 40%;
+        height: 60%;
+        top: 10%;
+}
+
+img {
+top: -80px;
+}
+
+h1 {
+top: -85px;
+}
+
+.container .input-box {
+top: -110px;
+}
+
+button {
+    top: -110px;
+}
+
+.social-icons {
+            margin: -85px 0;
+}
+
+p {
+    top:60px;
+                    
+}
+
+body {
+height: 637px;
+width: 375px;
+    } 
+
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        text-align: center;
+        justify-content: center;
+        backdrop-filter: blur(none);
+        width: 40%;
+        height: 60%;
+        top: 10%;
+}
+
+img {
+top: -80px;
+}
+
+h1 {
+top: -85px;
+}
+
+.container .input-box {
+top: -110px;
+}
+
+button {
+    top: -110px;
+}
+
+.social-icons {
+            margin: -85px 0;
+}
+
+p {
+    top:60px;
+                    
+}
+
+body {
+height: 637px;
+width: 375px;
+    }
+    
+}
+
+@media screen and (max-width: 390px) and (max-height: 844px) {
+    .container {
+        text-align: center;
+        justify-content: center;
+        border: none;
+        width: 40%;
+        height: 60%;
+        top: 10%;
+}
+
+img {
+top: -80px;
+}
+
+h1 {
+top: -85px;
+}
+
+.container .input-box {
+top: -110px;
+}
+
+button {
+    top: -110px;
+}
+
+.social-icons {
+            margin: -85px 0;
+}
+
+p {
+    top:60px;
+                    
+}
+
+body {
+    background: #000000;
+    height: 844px;
+    width: 390px;
+}
+}
+
+
+@media screen and (max-width: 414px) and (max-height: 736px) {
+    .container {
+        text-align: center;
+        justify-content: center;
+        border: none;
+        width: 40%;
+        height: 60%;
+        top: 10%;
+}
+
+img {
+top: -80px;
+}
+
+h1 {
+top: -85px;
+}
+
+.container .input-box {
+top: -110px;
+}
+
+button {
+    top: -110px;
+}
+
+.social-icons {
+            margin: -85px 0;
+}
+
+p {
+    top:60px;
+                    
+}
+
+body {
+    background: #000000;
+    height: 736px;
+    width: 414px;
+}
+}
+
+@media screen and (max-width: 390px) and (max-height: 890px) {
+    .container {
+                text-align: center;
+                justify-content: center;
+                border: none;
+                width: 40%;
+                height: 60%;
+                top: 10%;
+    }
+    
+    img {
+        top: -80px;
+    }
+
+    h1 {
+        top: -85px;
+    }
+
+    .container .input-box {
+        top: -110px;
+    }
+
+    button {
+            top: -110px;
+    }
+
+    .social-icons {
+                    margin: -85px 0;
+    }
+    
+    p {
+        top:60px;
+                        
+    }
+
+    body {
+        background: #000000;
+        height: 637px;
+        width: 375px;
+                   
+}
+}
